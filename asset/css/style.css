@@ -15,6 +15,10 @@ body {
     cursor: pointer;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 
 
 
@@ -50,9 +54,9 @@ body {
 /* webcam utenti */
 
 .webcam-container {
-    padding-top: 85px;
+    padding-top: 60px;
     padding-bottom: 15px;
-    height: calc(100vh - 155px);
+    height: calc(100vh - 55px);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -61,7 +65,7 @@ body {
 
 .webcam-container .user {
     width: 240px;
-    height: 150px;
+    height: 140px;
     background-image: url(https://picsum.photos/seed/picsum/200/300);
     background-size: cover;
     position: relative;
@@ -82,3 +86,48 @@ body {
 
 .webcam-container .user .user-info .user-microphone {
     margin-right: 2px;
+}
+
+
+
+
+
+/* barra del menu funzioni */
+
+.bottom-menu {
+    position: absolute;
+    bottom: 0;
+    height: 55px;
+    width: 100%;
+    background-color: #272727;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-menu .section-menu {
+    display: flex;
+}
+
+.bottom-menu .section-menu .menu-item {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 10px;
+    align-items: center;
+}
+
+.bottom-menu .section-menu .menu-item .item-icon {
+    font-size: 15px;
+}
+
+.bottom-menu .section-menu .menu-item .item-text {
+    font-size: 9px;
+    margin: 7px 0;
+}
+
+.bottom-menu .section-menu .menu-item .item-arrow {
+    font-size: 8px;
+    margin: 2px 15px;
+}
