@@ -11,7 +11,7 @@ body {
     min-width: 700px;
 }
 
-.bk-grey, .user {
+.bk-grey, .user, .menu-item {
     cursor: pointer;
 }
 
@@ -130,4 +130,17 @@ body {
 .bottom-menu .section-menu .menu-item .item-arrow {
     font-size: 8px;
     margin: 2px 15px;
+}
+
+.bottom-menu .section-menu #share-pull {
+    margin-right: 15px;
+}
+
+.bottom-menu .section-menu #share-pull .item-icon {
+    color: #4BC800;
+}
+
+#end-call {
+    color: #ff0000;
+    background-color: #4A4A4A;
 }
