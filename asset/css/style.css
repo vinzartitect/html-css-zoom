@@ -11,7 +11,7 @@ body {
     min-width: 700px;
 }
 
-.bk-grey {
+.bk-grey, .user {
     cursor: pointer;
 }
 
@@ -42,3 +42,43 @@ body {
 .speaker-view .view-gril .icon {
     margin-right: 3px;
 }
+
+
+
+
+
+/* webcam utenti */
+
+.webcam-container {
+    padding-top: 85px;
+    padding-bottom: 15px;
+    height: calc(100vh - 155px);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.webcam-container .user {
+    width: 240px;
+    height: 150px;
+    background-image: url(https://picsum.photos/seed/picsum/200/300);
+    background-size: cover;
+    position: relative;
+    margin: 5px 2px;
+}
+
+.webcam-container .user .user-info {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 5px;
+    background-color: rgba(140, 140, 140, 0.5);
+    color: white;
+    font-size: 9px;
+    max-width: 80%;
+}
+
+.webcam-container .user .user-info .user-microphone {
+    margin-right: 2px;
