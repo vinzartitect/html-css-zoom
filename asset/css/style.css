@@ -4,3 +4,41 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    min-width: 700px;
+}
+
+.bk-grey {
+    cursor: pointer;
+}
+
+
+
+
+
+/* settaggi della view */
+
+.speaker-view {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    color: white;
+}
+
+.speaker-view .bk-grey {
+    float: left;
+    display: flex;
+    background-color: grey;
+    padding: 3px;
+    font-size: 15px;
+    margin: 3px;
+    border-radius: 3px;
+}
+
+.speaker-view .view-gril .icon {
+    margin-right: 3px;
+}
